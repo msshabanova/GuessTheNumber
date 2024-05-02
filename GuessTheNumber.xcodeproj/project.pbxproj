@@ -11,6 +11,8 @@
 		10ACEAAA2BE257DE0097A00F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10ACEAA92BE257DE0097A00F /* ContentView.swift */; };
 		10ACEAAC2BE257DF0097A00F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10ACEAAB2BE257DF0097A00F /* Assets.xcassets */; };
 		10ACEAAF2BE257DF0097A00F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10ACEAAE2BE257DF0097A00F /* Preview Assets.xcassets */; };
+		10ACEAB62BE2584F0097A00F /* SliderRepresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10ACEAB52BE2584F0097A00F /* SliderRepresentation.swift */; };
+		10ACEAB92BE25B450097A00F /* SliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10ACEAB82BE25B450097A00F /* SliderView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		10ACEAA92BE257DE0097A00F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		10ACEAAB2BE257DF0097A00F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		10ACEAAE2BE257DF0097A00F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		10ACEAB52BE2584F0097A00F /* SliderRepresentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderRepresentation.swift; sourceTree = "<group>"; };
+		10ACEAB82BE25B450097A00F /* SliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +55,8 @@
 		10ACEAA62BE257DE0097A00F /* GuessTheNumber */ = {
 			isa = PBXGroup;
 			children = (
+				10ACEAB72BE25B1D0097A00F /* Slider */,
+				10ACEAB52BE2584F0097A00F /* SliderRepresentation.swift */,
 				10ACEAA72BE257DE0097A00F /* GuessTheNumberApp.swift */,
 				10ACEAA92BE257DE0097A00F /* ContentView.swift */,
 				10ACEAAB2BE257DF0097A00F /* Assets.xcassets */,
@@ -65,6 +71,14 @@
 				10ACEAAE2BE257DF0097A00F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		10ACEAB72BE25B1D0097A00F /* Slider */ = {
+			isa = PBXGroup;
+			children = (
+				10ACEAB82BE25B450097A00F /* SliderView.swift */,
+			);
+			path = Slider;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +152,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				10ACEAAA2BE257DE0097A00F /* ContentView.swift in Sources */,
+				10ACEAB92BE25B450097A00F /* SliderView.swift in Sources */,
 				10ACEAA82BE257DE0097A00F /* GuessTheNumberApp.swift in Sources */,
+				10ACEAB62BE2584F0097A00F /* SliderRepresentation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
